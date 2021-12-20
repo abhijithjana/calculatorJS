@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+    overflow: hidden;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.container{
+background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(forest-g1d51ad8ea_1920.jpg) ;
+width: 100%;
+height: 100vh;
+
+margin: 0 auto;
+
+}
+.calculator{
+    background-color:#99968a;
+    
+    opacity: .6;
+
+    width: 320px;
+    height: 540px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+    border-radius: 3%;
+    box-shadow: 0 2px 5px 4px rgba(0,0,0,0.2);
+
+}
+
+.ans{
+    width: 100%;
+    height: 100px;
+    text-align: right;
+}
+
+.history{
+  
+width: 100%;
+height: 60px;
+font-weight: bolder;
+
+
+
+
+}
+.hisclass{
+    position: relative;
+    top: 30px;
+    margin: 0 20px;
+    padding: 4%;
+    font-size: 15px;
+    color: #c2bdac;
+   overflow-x:scroll;
+
+    
+}
+
+
+.hisclass::-webkit-scrollbar {
+    display: none;
+  }
+
+.res{
+width: 100%;
+height:40px ;
+
+
+}
+.resclass{
+  margin: 0 20px;
+  padding: 4%;
+  font-size: 30px;
+}
+
+
+.keyboard{
+    width: 100%;
+    height: 460px;
+    position: relative;
+    top: 25px;
+}
+
+
+.oprand,.number,.empty{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    font-size: 15px;
+    border-width: 0;
+    font-weight: bold;
+}
+
+.oprand:active,.number:active{
+    font-size: 10px;
+    background-color: #c2bdac;
+    
+    
+}
+
+
+.oprand:focus,.number:focus{
+    outline: 0;
+}
+
+button:nth-child(4){
+    background-color: rgb(132, 132, 243);
+  
+}
+
+button:nth-child(8){
+    background-color: rgb(238, 132, 11);
+  
+}
+
+
+button:nth-child(12){
+    background-color: rgb(233, 65, 210);
+  
+}
+
+
+button:nth-child(16){
+    background-color: rgb(132, 132, 243);
+  
+}
+
+button:nth-child(20){
+    background-color: rgb(150, 8, 245);
+  
+}
+
+
+.oprand:hover,.number:hover{
+    font-size: 25px;
+}
+
+
+
+.number,.empty{
+    background-color: #99968a;
+}
